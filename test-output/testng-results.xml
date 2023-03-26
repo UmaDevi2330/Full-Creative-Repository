@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="116891" started-at="2023-03-26T09:20:22Z" finished-at="2023-03-26T09:22:19Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="116891" started-at="2023-03-26T09:20:22Z" finished-at="2023-03-26T09:22:19Z">
+      <class name="com.fullcreative.maincheckout.MainCheckOutPage">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.fullcreative.maincheckout.MainCheckOutPage@7cd62f43]" name="setup" is-config="true" duration-ms="26105" started-at="2023-03-26T14:50:22Z" finished-at="2023-03-26T14:50:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="validatecheckoutpage(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.fullcreative.maincheckout.MainCheckOutPage@7cd62f43]" name="validatecheckoutpage" duration-ms="90651" started-at="2023-03-26T14:50:48Z" data-provider="passdata" finished-at="2023-03-26T14:52:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[umadeviut2330@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Tumakutty@123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[FullCreative]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[ListA]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[ListB]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[draganddrop]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validatecheckoutpage -->
+      </class> <!-- com.fullcreative.maincheckout.MainCheckOutPage -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
